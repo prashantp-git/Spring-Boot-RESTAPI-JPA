@@ -1,2 +1,2 @@
 # Spring-Boot-RESTAPI-JPA
-A basic Spring Boot REST API application that provides CRUD capabilities for managing multiple products using Spring Data JPA and H2 database.
+A basic Spring Boot application that provides CRUD capabilities for managing multiple products in a product catalog. This application uses Spring Data JPA to interact with an H2 database. The backend handles HTTP requests through Spring REST controllers and communicates with a database using repositories. The product model includes fields like ID, name, description, and price. The service layer contains the business logic, and the data is stored in an in-memory H2 database for simplicity.
